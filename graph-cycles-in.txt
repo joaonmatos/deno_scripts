@@ -1,0 +1,66 @@
+root - classmap, lazy, properties, system, utilities, swing, collections, exceptions, parsing, logging, io, providers, enums, asm
+
+asm - 
+asm.processor - root
+
+classmap - root, exceptions, utilities
+
+collections - root
+collections.concurrentchannel - root
+collections.pushingqueue - 
+
+csv - root, utilities, lazy
+
+enums - root, lazy, providers
+
+events - root, collections
+
+exceptions - 
+
+function - 
+
+graphs - root
+
+io - root, utilities, lazy
+
+jar - 
+
+jobs - root, jobs.execution
+jobs.execution - root
+
+lazy - function
+
+logging - exceptions, root
+
+parsing - parsing.comments, utilities, root
+parsing.arguments - utilities
+parsing.comments - root, stringparser
+
+properties - root, enums, providers, utilities.heapwindow
+
+providers - root, properties, exceptions, providers.impl
+providers.impl - providers, exceptions
+
+reporting - root
+
+stringparser - utilities, stringsplitter, enums, providers
+
+stringsplitter - utilities, parsing, root
+
+swing - root
+
+system - root
+
+threadstream - root, collections.concurrentchannel
+
+treenode - root
+treenode.transform - treenode, treenode.transform.transformations, treenode.transform.impl, treenode.transform.util
+treenode.transform.impl - treenode.transform
+treenode.transform.transformations - treenode.transform, treenode
+treenode.transform.util - treenode.transform, treenode, root
+treenode.utils - treenode, classmap, utilities
+
+utilities - root, collections, collections.pushingqueue, providers, parsing
+utilities.heapwindow - swing, root
+
+xml - root, classmap
